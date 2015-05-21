@@ -1,0 +1,33 @@
+{
+  "name": "ziftrquery",
+  "version": "1.0.0",
+  "description": "Stores the ZifterCOIN blockchain in a MongoDB database to allow querying of block and transaction data",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nodejshow/ziftrquery.git"
+  },
+  "keywords": [
+    "ziftr",
+    "mongodb",
+    "docker",
+    "nodejs"
+  ],
+  "author": "Krister Johansson <hello@nodejs.how>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/nodejshow/ziftrquery/issues"
+  },
+  "homepage": "https://github.com/nodejshow/ziftrquery",
+  "dependencies": {
+    "async": "^0.9.2",
+    "bitcoin": "^2.3.0",
+    "log4js": "^0.6.25",
+    "mongodb": "^2.0.33",
+    "node-json-rpc": "0.0.1"
+  }
+}
